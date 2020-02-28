@@ -1,0 +1,26 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/csvw",
+    {
+      "@language": "en"
+    }
+  ],
+  "rdfs:comment": [
+    "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/"
+  ],
+  "tables": [
+    {
+      "tableSchema": "schema.json",
+      "dcterms:bibliographicCitation": "Data were obtained from specimens belonging to the United States National Museum of Natural History (USNM), Smithsonian Institution, Washington DC and digitized by the Walter Reed Biosystematics Unit (WRBU).",
+      "url":"USNM_Flea_and_Associated_Host_Records.tsv", 
+      "interactionTypeId": "http://purl.obolibrary.org/obo/RO_0002444",
+      "interactionTypeName": "parasite of",
+      "delimiter": "\t",
+      "headerRowCount": 1,
+      "null": [
+        "",
+        "No data"
+      ]
+    }
+  ]
+}

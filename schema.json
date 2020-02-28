@@ -1,0 +1,684 @@
+{
+  "columns": [
+    {
+      "name": "Sequence",
+      "titles": "Sequence",
+      "datatype": "string"
+    },
+    {
+      "name": "SubmitterOrganization",
+      "titles": "SubmitterOrganization",
+      "datatype": "string"
+    },
+    {
+      "name": "SubmitterWebSite",
+      "titles": "SubmitterWebSite",
+      "datatype": "string"
+    },
+    {
+      "name": "SubmitterPerson",
+      "titles": "SubmitterPerson",
+      "datatype": "string"
+    },
+    {
+      "name": "SubmitterEmail",
+      "titles": "SubmitterEmail",
+      "datatype": "string"
+    },
+    {
+      "name": "SubmitterAddress ",
+      "titles": "SubmitterAddress ",
+      "datatype": "string"
+    },
+    {
+      "name": "DateLastModified",
+      "titles": "DateLastModified",
+      "datatype": "string"
+    },
+    {
+      "name": "Collector",
+      "titles": "Collector",
+      "datatype": "string"
+    },
+    {
+      "name": "sourceInstitutionCode",
+      "titles": "InstitutionCode",
+      "datatype": "string"
+    },
+    {
+      "name": "sourceCollectionCode",
+      "titles": "CollectionCode",
+      "datatype": "string"
+    },
+    {
+      "name": "sourceCatalogNumber",
+      "titles": "CatalogNumber",
+      "datatype": "string"
+    },
+    {
+      "name": "sourceOccurrenceId",
+      "titles": "GlobalUniqueIdentifier",
+      "datatype": "string"
+    },
+    {
+      "name": "OtherCatalogNumbers",
+      "titles": "OtherCatalogNumbers",
+      "datatype": "string"
+    },
+    {
+      "name": "GenBankNum",
+      "titles": "GenBankNum",
+      "datatype": "string"
+    },
+    {
+      "name": "sourceBasisOfRecord",
+      "titles": "BasisOfRecord",
+      "datatype": "string"
+    },
+    {
+      "name": "Source",
+      "titles": "Source",
+      "datatype": "string"
+    },
+    {
+      "name": "RelatedInformation",
+      "titles": "RelatedInformation",
+      "datatype": "string"
+    },
+    {
+      "name": "InformationWithheld",
+      "titles": "InformationWithheld",
+      "datatype": "string"
+    },
+    {
+      "name": "sourceTaxonKingdom",
+      "titles": "Kingdom",
+      "datatype": "string"
+    },
+    {
+      "name": "sourceTaxonPhylum",
+      "titles": "Phylum",
+      "datatype": "string"
+    },
+    {
+      "name": "sourceTaxonClass",
+      "titles": "Class",
+      "datatype": "string"
+    },
+    {
+      "name": "sourceTaxonOrder",
+      "titles": "Order_",
+      "datatype": "string"
+    },
+    {
+      "name": "sourceTaxonFamily",
+      "titles": "Family",
+      "datatype": "string"
+    },
+    {
+      "name": "sourceTaxonGenus",
+      "titles": "Genus",
+      "datatype": "string"
+    },
+    {
+      "name": "sourceTaxonSpecies",
+      "titles": "Species",
+      "datatype": "string"
+    },
+    {
+      "name": "AuthorYearOfScientificName",
+      "titles": "AuthorYearOfScientificName",
+      "datatype": "string"
+    },
+    {
+      "name": "sourceTaxonName",
+      "titles": "ScientificName",
+      "datatype": "string"
+    },
+    {
+      "name": "VerbatimScientificName",
+      "titles": "VerbatimScientificName",
+      "datatype": "string"
+    },
+    {
+      "name": "IdentifiedBy",
+      "titles": "IdentifiedBy",
+      "datatype": "string"
+    },
+    {
+      "name": "DateIdentified",
+      "titles": "DateIdentified",
+      "datatype": "string"
+    },
+    {
+      "name": "TypeStatus",
+      "titles": "TypeStatus",
+      "datatype": "string"
+    },
+    {
+      "name": "IdentificationMethod",
+      "titles": "IdentificationMethod",
+      "datatype": "string"
+    },
+    {
+      "name": "IdentificationConfidence",
+      "titles": "IdentificationConfidence",
+      "datatype": "string"
+    },
+    {
+      "name": "IdentificationRemarks",
+      "titles": "IdentificationRemarks",
+      "datatype": "string"
+    },
+    {
+      "name": "EarliestDateCollected",
+      "titles": "EarliestDateCollected",
+      "datatype": "string"
+    },
+    {
+      "name": "LatestDateCollected",
+      "titles": "LatestDateCollected",
+      "datatype": "string"
+    },
+    {
+      "name": "VerbatimCollectingDate",
+      "titles": "VerbatimCollectingDate",
+      "datatype": "string"
+    },
+    {
+      "name": "TimeCollected",
+      "titles": "TimeCollected",
+      "datatype": "string"
+    },
+    {
+      "name": "Country",
+      "titles": "Country",
+      "datatype": "string"
+    },
+    {
+      "name": "StateProvince",
+      "titles": "StateProvince",
+      "datatype": "string"
+    },
+    {
+      "name": "County",
+      "titles": "County",
+      "datatype": "string"
+    },
+    {
+      "name": "Locality",
+      "titles": "Locality",
+      "datatype": "string"
+    },
+    {
+      "name": "decimalLongitude",
+      "titles": "DecimalLongitude",
+      "datatype": "string"
+    },
+    {
+      "name": "decimalLatitude",
+      "titles": "DecimalLatitude",
+      "datatype": "string"
+    },
+    {
+      "name": "CoordinateUncertaintyInMeters",
+      "titles": "CoordinateUncertaintyInMeters",
+      "datatype": "string"
+    },
+    {
+      "name": "GeodeticDatum",
+      "titles": "GeodeticDatum",
+      "datatype": "string"
+    },
+    {
+      "name": "VerbatimLongitude",
+      "titles": "VerbatimLongitude",
+      "datatype": "string"
+    },
+    {
+      "name": "VerbatimLatitude",
+      "titles": "VerbatimLatitude",
+      "datatype": "string"
+    },
+    {
+      "name": "VerbatimCoordinates",
+      "titles": "VerbatimCoordinates",
+      "datatype": "string"
+    },
+    {
+      "name": "VerbatimCoordinateSystem",
+      "titles": "VerbatimCoordinateSystem",
+      "datatype": "string"
+    },
+    {
+      "name": "GeoreferenceProtocol",
+      "titles": "GeoreferenceProtocol",
+      "datatype": "string"
+    },
+    {
+      "name": "GeoreferenceSources",
+      "titles": "GeoreferenceSources",
+      "datatype": "string"
+    },
+    {
+      "name": "GeoreferenceRemarks",
+      "titles": "GeoreferenceRemarks",
+      "datatype": "string"
+    },
+    {
+      "name": "IndividualCount",
+      "titles": "IndividualCount",
+      "datatype": "string"
+    },
+    {
+      "name": "sourceSexName",
+      "titles": "Sex",
+      "datatype": "string"
+    },
+    {
+      "name": "sourceLifeStageName",
+      "titles": "LifeStage",
+      "datatype": "string"
+    },
+    {
+      "name": "Remarks",
+      "titles": "Remarks",
+      "datatype": "string"
+    },
+    {
+      "name": "CollectingMethod",
+      "titles": "CollectingMethod",
+      "datatype": "string"
+    },
+    {
+      "name": "HabitatType",
+      "titles": "HabitatType",
+      "datatype": "string"
+    },
+    {
+      "name": "CollectingEffortInHours",
+      "titles": "CollectingEffortInHours",
+      "datatype": "string"
+    },
+    {
+      "name": "HostVerbatimName",
+      "titles": "HostVerbatimName",
+      "datatype": "string"
+    },
+    {
+      "name": "targetTaxonClass",
+      "titles": "HostClass",
+      "datatype": "string"
+    },
+    {
+      "name": "targetTaxonOrder",
+      "titles": "HostOrder_",
+      "datatype": "string"
+    },
+    {
+      "name": "targetTaxonFamily",
+      "titles": "HostFamily",
+      "datatype": "string"
+    },
+    {
+      "name": "targetTaxonName",
+      "titles": "HostScientificName",
+      "datatype": "string"
+    },
+    {
+      "name": "HostCommonName",
+      "titles": "HostCommonName",
+      "datatype": "string"
+    },
+    {
+      "name": "HostIndividualCount",
+      "titles": "HostIndividualCount",
+      "datatype": "string"
+    },
+    {
+      "name": "HostCountInfested",
+      "titles": "HostCountInfested",
+      "datatype": "string"
+    },
+    {
+      "name": "HostIdentifiedBy",
+      "titles": "HostIdentifiedBy",
+      "datatype": "string"
+    },
+    {
+      "name": "HostDateIdentified",
+      "titles": "HostDateIdentified",
+      "datatype": "string"
+    },
+    {
+      "name": "targetInstitutionCode",
+      "titles": "HostInstitutionCode",
+      "datatype": "string"
+    },
+    {
+      "name": "HostRemarks",
+      "titles": "HostRemarks",
+      "datatype": "string"
+    },
+    {
+      "name": "VerbatimElevation",
+      "titles": "VerbatimElevation",
+      "datatype": "string"
+    },
+    {
+      "name": "AssociatedParasite",
+      "titles": "AssociatedParasite",
+      "datatype": "string"
+    },
+    {
+      "name": "NumberParasitePositive",
+      "titles": "NumberParasitePositive",
+      "datatype": "string"
+    },
+    {
+      "name": "DateTestedParasite",
+      "titles": "DateTestedParasite",
+      "datatype": "string"
+    },
+    {
+      "name": "ParasiteTestedBy",
+      "titles": "ParasiteTestedBy",
+      "datatype": "string"
+    },
+    {
+      "name": "ParasiteTesterOrganization",
+      "titles": "ParasiteTesterOrganization",
+      "datatype": "string"
+    },
+    {
+      "name": "IdentificationMethodForParasite",
+      "titles": "IdentificationMethodForParasite",
+      "datatype": "string"
+    },
+    {
+      "name": "NumberSpecimensParasiteTested",
+      "titles": "NumberSpecimensParasiteTested",
+      "datatype": "string"
+    },
+    {
+      "name": "RemarksAboutParasite",
+      "titles": "RemarksAboutParasite",
+      "datatype": "string"
+    },
+    {
+      "name": "EarliestYearCollected",
+      "titles": "EarliestYearCollected",
+      "datatype": "string"
+    },
+    {
+      "name": "Slidebox Barcode",
+      "titles": "Slidebox Barcode",
+      "datatype": "string"
+    },
+    {
+      "name": "Drawer",
+      "titles": "Drawer",
+      "datatype": "string"
+    },
+    {
+      "name": "Family",
+      "titles": "Family",
+      "datatype": "string"
+    },
+    {
+      "name": "Slide Barcode",
+      "titles": "Slide Barcode",
+      "datatype": "string"
+    },
+    {
+      "name": "Catalog #_V",
+      "titles": "Catalog #_V",
+      "datatype": "string"
+    },
+    {
+      "name": "Type_V",
+      "titles": "Type_V",
+      "datatype": "string"
+    },
+    {
+      "name": "Genus_V",
+      "titles": "Genus_V",
+      "datatype": "string"
+    },
+    {
+      "name": "Genus",
+      "titles": "Genus",
+      "datatype": "string"
+    },
+    {
+      "name": "species_V",
+      "titles": "species_V",
+      "datatype": "string"
+    },
+    {
+      "name": "species",
+      "titles": "species",
+      "datatype": "string"
+    },
+    {
+      "name": "Sex_V",
+      "titles": "Sex_V",
+      "datatype": "string"
+    },
+    {
+      "name": "Specimen Count_V",
+      "titles": "Specimen Count_V",
+      "datatype": "string"
+    },
+    {
+      "name": "Life Stage",
+      "titles": "Life Stage",
+      "datatype": "string"
+    },
+    {
+      "name": "Country_V",
+      "titles": "Country_V",
+      "datatype": "string"
+    },
+    {
+      "name": "Province/State_V",
+      "titles": "Province/State_V",
+      "datatype": "string"
+    },
+    {
+      "name": "County/District_V",
+      "titles": "County/District_V",
+      "datatype": "string"
+    },
+    {
+      "name": "Location Notes_V",
+      "titles": "Location Notes_V",
+      "datatype": "string"
+    },
+    {
+      "name": "Elevation_V",
+      "titles": "Elevation_V",
+      "datatype": "string"
+    },
+    {
+      "name": "Collector_V",
+      "titles": "Collector_V",
+      "datatype": "string"
+    },
+    {
+      "name": "Collection Date_V",
+      "titles": "Collection Date_V",
+      "datatype": "string"
+    },
+    {
+      "name": "Collection Date",
+      "titles": "Collection Date",
+      "datatype": "string"
+    },
+    {
+      "name": "Determined by_V",
+      "titles": "Determined by_V",
+      "datatype": "string"
+    },
+    {
+      "name": "Host Name_V",
+      "titles": "Host Name_V",
+      "datatype": "string"
+    },
+    {
+      "name": "USNM Host Number_V",
+      "titles": "USNM Host Number_V",
+      "datatype": "string"
+    },
+    {
+      "name": "Habitat_V",
+      "titles": "Habitat_V",
+      "datatype": "string"
+    },
+    {
+      "name": "Additional Information_V",
+      "titles": "Additional Information_V",
+      "datatype": "string"
+    },
+    {
+      "name": "Accessioner_Date",
+      "titles": "Accessioner_Date",
+      "datatype": "string"
+    },
+    {
+      "name": "Comments",
+      "titles": "Comments",
+      "datatype": "string"
+    },
+    {
+      "name": "Country",
+      "titles": "Country",
+      "datatype": "string"
+    },
+    {
+      "name": "State/Province",
+      "titles": "State/Province",
+      "datatype": "string"
+    },
+    {
+      "name": "County",
+      "titles": "County",
+      "datatype": "string"
+    },
+    {
+      "name": "Locality",
+      "titles": "Locality",
+      "datatype": "string"
+    },
+    {
+      "name": "DecimalLatitude",
+      "titles": "DecimalLatitude",
+      "datatype": "string"
+    },
+    {
+      "name": "DecimalLongitude",
+      "titles": "DecimalLongitude",
+      "datatype": "string"
+    },
+    {
+      "name": "CoordinateUncertainty (m)",
+      "titles": "CoordinateUncertainty (m)",
+      "datatype": "string"
+    },
+    {
+      "name": "GeoreferenceProtocol",
+      "titles": "GeoreferenceProtocol",
+      "datatype": "string"
+    },
+    {
+      "name": "GeoreferenceSources",
+      "titles": "GeoreferenceSources",
+      "datatype": "string"
+    },
+    {
+      "name": "GeoreferenceRemarks",
+      "titles": "GeoreferenceRemarks",
+      "datatype": "string"
+    },
+    {
+      "name": "GeodeticDatum",
+      "titles": "GeodeticDatum",
+      "datatype": "string"
+    },
+    {
+      "name": "VerbatimLatitude",
+      "titles": "VerbatimLatitude",
+      "datatype": "string"
+    },
+    {
+      "name": "VerbatimLongitude",
+      "titles": "VerbatimLongitude",
+      "datatype": "string"
+    },
+    {
+      "name": "VerbatimCoordinates",
+      "titles": "VerbatimCoordinates",
+      "datatype": "string"
+    },
+    {
+      "name": "VerbatimCoordinateSystem",
+      "titles": "VerbatimCoordinateSystem",
+      "datatype": "string"
+    },
+    {
+      "name": "Source",
+      "titles": "Source",
+      "datatype": "string"
+    },
+    {
+      "name": "Kingdom",
+      "titles": "Kingdom",
+      "datatype": "string"
+    },
+    {
+      "name": "Phylum",
+      "titles": "Phylum",
+      "datatype": "string"
+    },
+    {
+      "name": "Class",
+      "titles": "Class",
+      "datatype": "string"
+    },
+    {
+      "name": "Order",
+      "titles": "Order",
+      "datatype": "string"
+    },
+    {
+      "name": "Earliest Date",
+      "titles": "Earliest Date",
+      "datatype": "string"
+    },
+    {
+      "name": "Latest Date",
+      "titles": "Latest Date",
+      "datatype": "string"
+    },
+    {
+      "name": "Year",
+      "titles": "Year",
+      "datatype": "string"
+    },
+    {
+      "name": "Hyperlink",
+      "titles": "Hyperlink",
+      "datatype": "string"
+    },
+    {
+      "name": "Host Remarks",
+      "titles": "Host Remarks",
+      "datatype": "string"
+    },
+    {
+      "name": "Hypothesized Reference Source",
+      "titles": "Hypothesized Reference Source",
+      "datatype": "string"
+    }
+  ]
+}
